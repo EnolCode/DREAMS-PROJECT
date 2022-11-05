@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  height: 9em;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: center;
+  background: url("../assets/banner-avion.jpg") no-repeat center center fixed;
+  background-size: 80%;
+  border-radius: 10px;
+}
+
+.header__logo {
+  width: 20%;
+  position: relative;
+  left: -20%;
+}
+
+.header__div-text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.text__slogan {
+  width: 100%;
+  font-family: "Coming Soon", cursive;
+  color: white;
+  font-size: 3em;
+  letter-spacing: 6px;
+}
+
+.dark-mode {
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  width: 3em;
+  height: 3em;
+  cursor: pointer;
+}

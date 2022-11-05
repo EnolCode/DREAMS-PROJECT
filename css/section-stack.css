@@ -1,0 +1,11 @@
+.stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.stack__img {
+  width: 8%;
+  margin-bottom: 2em;
+}

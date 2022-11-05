@@ -1,0 +1,76 @@
+.wrap-img {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card__img {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 18em;
+  height: 18em;
+  border-radius: 50%;
+  border: 4px solid rgb(107, 59, 197);
+}
+
+.card__omar {
+  background: url("../assets/Omar.png");
+  background-size: cover;
+}
+.card__enol {
+  background: url("../assets/1653935641764.jpg");
+  background-size: cover;
+}
+
+.card__enol:hover {
+  background: url("../assets/walterwhite.jpg");
+  background-repeat: no-repeat;
+  background-position: 33% 66%;
+}
+
+.card__omar:hover {
+  background: url("../assets/Bart_Simpson_200px.png");
+  background-repeat: no-repeat;
+  background-position: 33% 66%;
+}
+
+.card__name {
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-size: 3em;
+  border-bottom: 2px solid rgb(107, 59, 197);
+}
+
+.card__word {
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-bottom: 0.6em;
+}
+
+.card__description {
+  width: 50%;
+  font-size: 0.8em;
+  margin-bottom: 0.8em;
+}
+
+.social-media__list {
+  display: flex;
+  width: 10em;
+  height: 3em;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon {
+  font-size: 1.5em;
+}
